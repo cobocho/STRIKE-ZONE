@@ -1,0 +1,59 @@
+body {
+  background-color: #f1f1f1;
+}
+.login-wrapper {
+  padding-top: 100px;
+}
+.form-box {
+  width: 500px;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 32px -5px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 1px 1px 32px -5px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 1px 1px 32px -5px rgba(0, 0, 0, 0.11);
+  padding: 30px;
+  margin: auto;
+}
+.login-form-wrapper {
+  margin-bottom: 10px;
+}
+.login-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.login-input {
+  width: 278px;
+  margin-right: 12px;
+}
+.login-warning {
+  margin: 10px;
+  color: red;
+  font-weight: bold;
+}
+#loginId {
+  margin-bottom: 10px;
+}
+#login {
+  width: 150px;
+  height: 90px;
+}
+#signUp {
+  width: 135px;
+}
+#findPassword {
+  width: 135px;
+}
+.login-info-save {
+  margin-left: 5px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.login-info-save input {
+  margin-right: 5px;
+  transform: scale(1.5);
+}
+.blank-space {
+  min-height: 70vh;
+}
